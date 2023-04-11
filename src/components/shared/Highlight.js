@@ -16,10 +16,15 @@ export const Highlight = ({imgsrc, title, descrip, linker, linkdescrip}) => {
   direction={{ base: 'column', sm: 'row' }}
   overflow='hidden'
   variant='outline'
+  my="3"
 >
   <Image
     objectFit='cover'
-    maxW={{ base: '100%', sm: '500px' }}
+    float={"left"}
+    width={"20rem"}
+    // he
+    height={"20rem"}
+    backgroundSize={"cover"}
     src={imgsrc}
     // alt='Caffe Latte'
   />

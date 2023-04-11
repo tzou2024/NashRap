@@ -2,7 +2,8 @@ import React from 'react'
 import {
     useMediaQuery,
     Box,
-    Center
+    Center,
+    Text
 } from '@chakra-ui/react'
 
 import img from "./data/musicrow.jpg"
@@ -16,9 +17,9 @@ export default function Intro() {
     const [isLargerThanLG] = useMediaQuery('(min-width: 62em)');
 
   return (
-    <Box w={isLargerThanLG ? "60vw" : "full"} textAlign={"center"} alignContent={"center"} alignItems={"center"} justifyContent={"center"} justifyItems={"center"}>
+    <Box w={isLargerThanLG ? "60vw" : "full"} textAlign={"center"} alignContent={"center"} alignItems={"center"} justifyContent={"center"} justifyItems={"center"} borderBottom="8px solid grey">
     <Box>
-    Nashville is known as "Music City" for a reason. Millions of tourists come to Nashville for its rich history in country and [ELABORATE].
+    Nashville is known as "Music City" for a reason. Millions of tourists come to Nashville for its rich history in country and pop.
 
     It started in the 1800's with the <span className="Famous">Fisk Jubilee Singers</span> from Nashville's Fisk University. They pushed Nashville into the spotlight as a global music center with their around-the-world tour. 
 
@@ -29,6 +30,10 @@ export default function Intro() {
     <Center my="3">
         <img src={img} alt="Music Row at Night"/>
     </Center>
+
+    <Text>
+    But, music in Nashville isn't one dimensional, and it serves as a host for a breadth of genre's styles, and musical histories. Througout the city, all genres of music and artists are fighting for a platform. Moreover, these artists and collectives are pushing to change the narrative of what Nashville has to offer, and where other up and coming artists should call home. At the moment, Nashville hip-hop is more underground than its commercial country counterparts, but that has lead to a diverse sonic pallete, rather than a singular aesthetic.
+    </Text>
 
     </Box>
     

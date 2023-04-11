@@ -11,13 +11,13 @@ import { Highlight } from './shared/Highlight';
 import blowpopcrew from "./data/blowpopcrew.jpg"
 import pistol from "./data/pistol.jpg"
 import starlito from "./data/starlito.jpg"
-
+import youngbuck from "./data/youngbuck.jpg"
 
 export default function Intro() {
     const [isLargerThanLG] = useMediaQuery('(min-width: 62em)');
 
   return (
-    <Box w={isLargerThanLG ? "60vw" : "full"} textAlign={"center"} alignContent={"center"} alignItems={"center"} justifyContent={"center"} justifyItems={"center"}>
+    <Box w={isLargerThanLG ? "60vw" : "full"} textAlign={"center"} alignContent={"center"} alignItems={"center"} justifyContent={"center"} justifyItems={"center"} borderBottom={"8px solid grey"}>
     
     <Text fontSize={"4xl"} fontWeight={"bold"}>
         History
@@ -42,15 +42,15 @@ export default function Intro() {
     Leroy Gordon, known as Pistol, was the next big thing in Nashville Rap. He was a gangsta rapper from the Preston-Taylor projects who signed with Ruthless Records and Eazy-E, a leader of the group N.W.A, and Godfather of Gansta Rap. 
     "/>
     Unfortunately, soon after Pistol released his debut <i>Hittin Like a Bullet</i> in June 1994, Easy-E died due to AIDS and Pistol went back down underground. 
-    Nashville had several more bright spots moving through the 2000's, including Youg Buck with <i>Striaight Outta Cashville</i> and Starlito with several Billboard Top 200 alumbs appearences.
+    Nashville had several more bright spots moving through the 2000's, including Youg Buck with <i>Straight Outta Cashville</i> and Starlito with several Billboard Top 200 alumbs appearences.
     <Highlight imgsrc={starlito} title="Starlito" descrip="
     Jermain Eric Shute, also known as Starlito, was a rapper out of Nashville and Hume-Fogg Highschool (close to home for me!). His 2005 hit 'Grey Goose' featured Yo Gotti and went national. His discography contians features with famous rappers like Lil Wayne and Gucci Mane, and he went on a US tour with Don Trip frm Memphis, Tennessee after a joint project covering 43 ciiies.
     "/>
     
-    Young Buck was another to be considered to be one of the first Nashville Rappers to make it mainstream. Buck, his label chief 50 Cet, and crew known as G-Unit, were selling out stadiums.
-    His debut album, Straight Outta Cashville, sold a quarter millions copies in its first week, and his second release Buck the World went certified gold. While his story has several ups and downs, through violence, drugs, and falling out, there is no denying his impact on putting Nashville on the map. Buck eventually started his own local label, Cashville Records, signing lacals rappers to pump out free mixtapes to stay connected with fans.
+    
 
-    {/* <Highlight  */}
+    <Highlight imgsrc= {youngbuck} title = "Young Buck" descrip="Young Buck was another to be considered to be one of the first Nashville Rappers to make it mainstream. Buck, his label chief 50 Cet, and crew known as G-Unit, were selling out stadiums.
+    His debut album, Straight Outta Cashville, sold a quarter millions copies in its first week, and his second release Buck the World went certified gold. While his story has several ups and downs, through violence, drugs, and falling out, there is no denying his impact on putting Nashville on the map. Buck eventually started his own local label, Cashville Records, signing lacals rappers to pump out free mixtapes to stay connected with fans."/>
 
     </Box>
     
