@@ -8,6 +8,9 @@ import {
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import Intro from './components/Intro';
+import History from "./components/History";
+import Contemporary from './components/Contemporary';
+
 function App() {
   return (
     <ChakraProvider theme={theme}>
@@ -18,6 +21,8 @@ function App() {
           </Flex>
           <Heading />
           <Intro/>
+          <History/>
+          <Contemporary />
           {/* </VStack> */}
         </Flex>
       </Box>

@@ -7,9 +7,10 @@ import {
   Stack,
   Heading,
   Text,
-    Button } from '@chakra-ui/react'
+  Link,
+  Button } from '@chakra-ui/react'
 
-export const Highlight = ({imgsrc, title, descrip}) => {
+export const Highlight = ({imgsrc, title, descrip, linker, linkdescrip}) => {
   return (
     <Card
   direction={{ base: 'column', sm: 'row' }}
@@ -18,7 +19,7 @@ export const Highlight = ({imgsrc, title, descrip}) => {
 >
   <Image
     objectFit='cover'
-    // maxW={{ base: '100%', sm: '200px' }}
+    maxW={{ base: '100%', sm: '500px' }}
     src={imgsrc}
     // alt='Caffe Latte'
   />
@@ -30,6 +31,10 @@ export const Highlight = ({imgsrc, title, descrip}) => {
       <Text py='2'>
         {descrip}
       </Text>
+
+      <Link href={linker} isExternal color="blue">
+        Checkout {linkdescrip}
+      </Link>
     </CardBody>
 
     {/* <CardFooter>
