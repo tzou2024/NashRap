@@ -16,14 +16,16 @@ export const Highlight = ({imgsrc, title, descrip, linker, linkdescrip}) => {
   direction={{ base: 'column', sm: 'row' }}
   overflow='hidden'
   variant='outline'
-  my="3"
+  // backgroundColor={"#DEF3FD"}
+  border="2px solid #DEF3FD"
+  my="5"
 >
   <Image
     objectFit='cover'
     float={"left"}
     width={"20rem"}
     // he
-    height={"20rem"}
+    height={"22rem"}
     backgroundSize={"cover"}
     src={imgsrc}
     // alt='Caffe Latte'
@@ -37,8 +39,12 @@ export const Highlight = ({imgsrc, title, descrip, linker, linkdescrip}) => {
         {descrip}
       </Text>
 
+      <Text fontWeight={"semibold"}>
+      Featured Work:
+      </Text>
+
       <Link href={linker} isExternal color="blue">
-        Checkout {linkdescrip}
+        {linkdescrip}
       </Link>
     </CardBody>
 

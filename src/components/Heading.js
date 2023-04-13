@@ -10,10 +10,10 @@ import {ArrowDownIcon} from '@chakra-ui/icons'
 
 export default function Heading() {
   return (
-    <Box borderBottom={"10px solid gray"} my="3" py={"3"}  minHeight={"90vh"}>
+    <Box borderBottom={"8px solid gray"} my="3" py={"3"}  minHeight={"90vh"}>
     <Box>
     <Text fontSize="6xl" as="b">
-    Music City
+    Cashville
     </Text>
     </Box>
     <Box >
