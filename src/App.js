@@ -14,6 +14,8 @@ import Intro from './components/Intro';
 import History from "./components/History";
 import Contemporary from './components/Contemporary';
 import Footer from './components/Footer';
+import CloseListening from './components/CloseListening';
+import AdditionalListening from './components/AdditionalListening';
 
 
 function App() {
@@ -30,6 +32,8 @@ function App() {
           <Intro/>
           <History/>
           <Contemporary />
+          <CloseListening />
+          <AdditionalListening />
           {/* </VStack> */}
         </Flex>
         <Footer />

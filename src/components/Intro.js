@@ -35,7 +35,7 @@ export default function Intro() {
     </Center>
 
     <Text>
-    But, music in Nashville isn't one dimensional, and it serves as a host for a breadth of genres, styles, and musical histories. Througout the city, all genres of music and artists are fighting for a platform. Moreover, these artists and collectives are pushing to change the narrative of what Nashville has to offer, and where other up and coming artists should call home. At the moment, Nashville hip-hop is more underground than its commercial country counterparts, but that has lead to a diverse sonic pallete, rather than a singular aesthetic.
+    While country and pop come to mind for most, music in Nashville isn't one dimensional, and it serves as a host for a breadth of genres, styles, and musical histories. Througout the city, all genres of music and artists are fighting for a platform. Moreover, these artists and collectives are pushing to change the narrative of what Nashville has to offer, and where other up-and-coming artists should call home. At the moment, Nashville hip-hop is more underground than its commercial country counterparts, but that has lead to a diverse sonic pallete, rather than a singular aesthetic.
     </Text>
 
     </Box>

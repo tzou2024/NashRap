@@ -16,14 +16,14 @@ const Contemporary = () => {
     const [isLargerThanLG] = useMediaQuery('(min-width: 62em)');
 
     return (
-      <Box w={isLargerThanLG ? "60vw" : "full"} textAlign={"center"} alignContent={"center"} alignItems={"center"} justifyContent={"center"} justifyItems={"center"}>
+      <Box w={isLargerThanLG ? "60vw" : "full"} textAlign={"center"} alignContent={"center"} alignItems={"center"} justifyContent={"center"} justifyItems={"center"} borderBottom={"8px solid grey"}>
       
       <Text fontSize={"5xl"} fontWeight={"bold"}>
       Contemporary Artists
       </Text>
 
       <Box>
-      Despite several brightspots, Nashville hip-hop has never fully broken into the mainstream. But, that doesn't mean that it has settled back into the background. In fact, there has been a rebirth of Hip-Hop identity in Nashville, with several artists and collectives making a name for themselves locally.
+      Despite several brightspots, Nashville hip-hop has never fully broken into mainstream media. But, that doesn't mean that it has settled back into the background. In fact, there has been a rebirth of Hip-Hop identity in Nashville, with several artists and collectives making a name for themselves locally.
 
 
       </Box>
@@ -32,7 +32,7 @@ const Contemporary = () => {
       Collectives
       </Text>
       <Text>
-      First, I wanted to touch on a couple of artist collectives creating a community in the Nashville Hip-Hop world. By most accounts, Freedom Fest in 2015 was where the resurgance started. BlackCity was formed after Artist Sean Smith, AKA The BlackSon, alongside brother Mychael Carney, connected with future manager Justin Causey at a Freedom Fest afterparty to start and grow the BlackCity Collective. Since then, the group has added several new artists to live in the crew house "The Compound", including Reaux Marquez and Brian Brown. 
+      First, I wanted to touch on a couple of artist collectives creating a community in the Nashville Hip-Hop world. When doing my research, I found it really interesting how quickly and early artists in Nashville sought out their peers. I think a big part of Hip-Hop is collective identity, so seeing how these artists are establishing a culture together rather than competitively is really inspiring. By most accounts, Freedom Fest in 2015 was where the resurgance started. BlackCity was formed after Artist Sean Smith, AKA The BlackSon, alongside brother Mychael Carney, connected with future manager Justin Causey at a Freedom Fest afterparty to start and grow the BlackCity Collective. Since then, the group has added several new artists to live in the crew house "The Compound", including Reaux Marquez and Brian Brown. 
 
       </Text>
       <Highlight imgsrc={blackcity} title="BlackCity" descrip="Blackcity has pushed Black economic empowerment in their work, and fight for a rightful share of a Nashville that has disproportionately benefited white businesses and residences. 
@@ -44,7 +44,7 @@ const Contemporary = () => {
 
       <Box>
       <Text>
-      Several more collectives cover the Nashville Hip Hop Landscape. Within each of these collectives, each artist has their own work, but what I personally appreciate is the sense of identity, pride, and community that is fostered when these talented artists come together to grow alongside eachother.
+      Several more collectives cover the Nashville Hip Hop Landscape. Within each of these collectives, each artist has their own work, but what I personally appreciate is the sense of identity, pride, and community that is fostered when these talented artists come together to grow alongside eachother. In the Six One Tribe, for example, consider themselves an 'ecosystem' of creativity, with 50 people connected to any given project put out, even for solo projects. And, it's not just local artists- within the "Tribe Sessions", there are also Dj's, producers, videographers getting in the mix to create an authentically local atmosphere.
       </Text>
 
       <Highlight imgsrc={sixone} title="Six One Tribe" descrip = "Another artist collective making waves in Nashville Hip Hop is the group of nearly 30 rappers, singers, and producers, most prominantely including Gee Slab, Corduroy Clemens, Negro Justice, Riø Tokyo, Weston and Namir Blade, who come together to form Six One Tribe. Their headquarters is Inglewood studio in Riverserside Village, and through their 'Tribe Sessions', have become known as one of the defining sounds of Nashville Hip-Hop."
@@ -69,32 +69,6 @@ const Contemporary = () => {
       linkdescrip={"Third Eye & Co Live at The Dive"}
       linker={"https://www.youtube.com/watch?v=NYfOtlnIC8I"}/>
       </Box>
-
-
-      
-      <Box>
-      <Text fontSize={"3xl"} fontWeight={"bold"}>
-      Other Artists
-      </Text>
-
-      <Highlight imgsrc={daishamcbride} title="Daisha McBride" descrip="Next up is Daisha McBride, know on social media as The Rap Girl. McBride gained popularily from posting fresstyle videos she recorded in her Middle Tennessee State University dorm room. She moved from Knoxville to Murfreesboro, where MTSU is located, to Music City to make it fulltime and collaborate with local MC's."
-      linkdescrip={"Nerve"}
-      linker={"https://www.youtube.com/watch?v=kUEKsJKOF7w"}/>
-      </Box>
-      <Box my="2">
-      <Text fontSize={"3xl"} fontWeight={"bold"}>
-        Additional Listening
-      </Text>
-      <Text fontSize={"2xl"}>
-      Want more? Check out Nashville Hip-Hop, A Playlist by NPR Music:
-      </Text>
-      </Box>
-      
-      <Center>
-      
-
-      <Spotify  link="https://open.spotify.com/playlist/45v4WDYwswAax2rcjD2An2?si=dc400781d2ac4e75" />
-      </Center>
 
       </Box>)
 }
