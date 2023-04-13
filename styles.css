@@ -1,0 +1,12 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.Famous {
+    font-weight: bold;
+    color: brown;
+}
+.NashFamous {
+    font-weight: bold;
+    color: darkblue;
+}
