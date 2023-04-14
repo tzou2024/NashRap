@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://tzou2024.github.io/NashRap",
+  "homepage": "https://tzou2024.github.io/NashRap/",
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^2.0.18",
