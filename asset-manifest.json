@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/hiphop/static/js/main.3fc940b4.js",
-    "static/js/787.28cb0dcd.chunk.js": "/hiphop/static/js/787.28cb0dcd.chunk.js",
-    "static/media/titlecard.jpg": "/hiphop/static/media/titlecard.a2bd6cfec34568a4a7d9.jpg",
-    "static/media/daishamcbride.jpg": "/hiphop/static/media/daishamcbride.60d4fe3b9cb9dcefbce2.jpg",
-    "static/media/musicrow.jpg": "/hiphop/static/media/musicrow.c0fd463befb5e10464af.jpg",
-    "static/media/thirdeye.jpg": "/hiphop/static/media/thirdeye.8bb08a862f29aeda0bad.jpg",
-    "static/media/sixone.jpg": "/hiphop/static/media/sixone.dd2b2f8db635ef861f5b.jpg",
-    "static/media/blackcity.jpg": "/hiphop/static/media/blackcity.bfd20db082e3ec3258c6.jpg",
-    "static/media/pistol.jpg": "/hiphop/static/media/pistol.9c1943a73a04a8f9f2ca.jpg",
-    "static/media/youngbuck.jpg": "/hiphop/static/media/youngbuck.dc6c8f1cea1dd6111331.jpg",
-    "static/media/blowpopcrew.jpg": "/hiphop/static/media/blowpopcrew.98e07402748e7bc96917.jpg",
-    "static/media/starlito.jpg": "/hiphop/static/media/starlito.a7314f861f696331f237.jpg",
-    "index.html": "/hiphop/index.html",
-    "main.3fc940b4.js.map": "/hiphop/static/js/main.3fc940b4.js.map",
-    "787.28cb0dcd.chunk.js.map": "/hiphop/static/js/787.28cb0dcd.chunk.js.map"
+    "main.js": "/NashRap/static/js/main.7c648953.js",
+    "static/js/787.28cb0dcd.chunk.js": "/NashRap/static/js/787.28cb0dcd.chunk.js",
+    "static/media/titlecard.jpg": "/NashRap/static/media/titlecard.a2bd6cfec34568a4a7d9.jpg",
+    "static/media/daishamcbride.jpg": "/NashRap/static/media/daishamcbride.60d4fe3b9cb9dcefbce2.jpg",
+    "static/media/musicrow.jpg": "/NashRap/static/media/musicrow.c0fd463befb5e10464af.jpg",
+    "static/media/thirdeye.jpg": "/NashRap/static/media/thirdeye.8bb08a862f29aeda0bad.jpg",
+    "static/media/sixone.jpg": "/NashRap/static/media/sixone.dd2b2f8db635ef861f5b.jpg",
+    "static/media/blackcity.jpg": "/NashRap/static/media/blackcity.bfd20db082e3ec3258c6.jpg",
+    "static/media/pistol.jpg": "/NashRap/static/media/pistol.9c1943a73a04a8f9f2ca.jpg",
+    "static/media/youngbuck.jpg": "/NashRap/static/media/youngbuck.dc6c8f1cea1dd6111331.jpg",
+    "static/media/blowpopcrew.jpg": "/NashRap/static/media/blowpopcrew.98e07402748e7bc96917.jpg",
+    "static/media/starlito.jpg": "/NashRap/static/media/starlito.a7314f861f696331f237.jpg",
+    "index.html": "/NashRap/index.html",
+    "main.7c648953.js.map": "/NashRap/static/js/main.7c648953.js.map",
+    "787.28cb0dcd.chunk.js.map": "/NashRap/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.3fc940b4.js"
+    "static/js/main.7c648953.js"
   ]
 }
