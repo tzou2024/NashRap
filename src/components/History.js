@@ -28,7 +28,7 @@ export default function Intro() {
 
     </Box>
     <Highlight imgsrc={blowpopcrew} title="The Blow Pop Crew" descrip='
-    The Blow Pop Crew was a trio from South Nashville, started when then then Walter D was gifed a Spoonie Gee. His friend, French Toast and later Blow Pop soon joined through a common interest. Their breakdance and cyphers lead to a connection with Manager Henry Dotson and a breakout single, "Drop the Base". More influenced by slow-and-low Def Jam thump than upbeat Sugar Hill funk, they helped established Southern Rap as we know it.'
+    The Blow Pop Crew was a trio from South Nashville, started when then teenager Walter D was gifted a record by Spoonie Gee. His friend, French Toast and later Blow Pop soon joined through a common interest. Their breakdance and cyphers lead to a connection with Manager Henry Dotson and a breakout single, "Drop the Base". More influenced by slow-and-low Def Jam thump than upbeat Sugar Hill funk, they helped established Southern Rap as we know it.'
     linker={"https://www.youtube.com/watch?v=EkJRr8KmmiY"}
     linkdescrip={"Drop the Bass"}/>
 
@@ -54,7 +54,7 @@ export default function Intro() {
     
 
     <Highlight imgsrc= {youngbuck} title = "Young Buck" descrip="Young Buck was another to be considered to be one of the first Nashville Rappers to make it mainstream. Buck, alongside his label chief 50 Cent, and crew known as G-Unit, were selling out stadiums.
-    His debut album, Straight Outta Cashville, sold a quarter millions copies in its first week, and his second release Buck the World went certified gold. After a rocky relationship with 50, Buck eventually started his own local label, Cashville Records, signing lacals rappers to pump out free mixtapes to stay connected with fans."
+    His debut album, Straight Outta Cashville, sold a quarter millions copies in its first week, and his second release 'Buck the World' went certified gold. After a rocky relationship with 50, Buck eventually started his own local label, Cashville Records, signing lacals rappers to pump out free mixtapes to stay connected with fans."
     linker={"https://www.youtube.com/watch?v=WznGf4hMNl0"}
     linkdescrip={"Straight Outta Cashville"}/>
 

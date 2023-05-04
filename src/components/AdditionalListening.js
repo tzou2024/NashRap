@@ -21,7 +21,7 @@ const AdditionalListening = () => {
       </Text>
       <Box>
 
-      <Highlight imgsrc={daishamcbride} title="Daisha McBride" descrip="One last artist I'd like to bring attention to is Daisha McBride, known on social media as The Rap Girl. McBride gained popularily from posting fresstyle videos she recorded in her Middle Tennessee State University dorm room. She moved from Knoxville to Murfreesboro (where MTSU is located) to Music City to make it fulltime and collaborate with local MC's."
+      <Highlight imgsrc={daishamcbride} title="Daisha McBride" descrip="One last artist I'd like to bring attention to is Daisha McBride, known on social media as The Rap Girl. McBride gained popularily from posting freestyle videos she recorded in her Middle Tennessee State University dorm room. She moved from Knoxville to Murfreesboro (where MTSU is located) to Music City to make it fulltime and collaborate with local MC's."
       linkdescrip={"Nerve"}
       linker={"https://www.youtube.com/watch?v=kUEKsJKOF7w"}/>
       </Box>
