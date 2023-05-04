@@ -2,11 +2,9 @@ import React from 'react'
 import {
     useMediaQuery,
     Box,
-    Center,
     Text
 } from '@chakra-ui/react'
 
-import img from "./data/musicrow.jpg"
 import { Highlight } from './shared/Highlight';
 import blowpopcrew from "./data/blowpopcrew.jpg"
 import pistol from "./data/pistol.jpg"

@@ -7,10 +7,6 @@ import {
 } from '@chakra-ui/react'
 
 import img from "./data/musicrow.jpg"
-import { Highlight } from './shared/Highlight';
-import blowpopcrew from "./data/blowpopcrew.jpg"
-import pistol from "./data/pistol.jpg"
-import starlito from "./data/starlito.jpg"
 
 
 export default function Intro() {

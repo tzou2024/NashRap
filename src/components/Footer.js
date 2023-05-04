@@ -1,6 +1,5 @@
 import React from 'react'
-import { Box,Text, SimpleGrid, theme, Link} from '@chakra-ui/react'
-import { Theme } from '@chakra-ui/react'
+import { Box,Text, Link} from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 
 const Footer = () => {

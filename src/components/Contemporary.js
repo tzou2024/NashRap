@@ -2,15 +2,12 @@ import React from 'react'
 import {
     useMediaQuery,
     Box,
-    Center,
     Text
 } from '@chakra-ui/react'
 import { Highlight } from './shared/Highlight';
 import sixone from "./data/sixone.jpg"
-import daishamcbride from "./data/daishamcbride.jpg"
 import thirdeye from "./data/thirdeye.jpg"
 import blackcity from "./data/blackcity.jpg"
-import { Spotify } from 'react-spotify-embed';
 
 const Contemporary = () => {
     const [isLargerThanLG] = useMediaQuery('(min-width: 62em)');

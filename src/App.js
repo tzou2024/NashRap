@@ -6,9 +6,6 @@ import {
   Flex,
   theme,
 } from '@chakra-ui/react';
-import { extendTheme } from "@chakra-ui/react"
-import { mode } from "@chakra-ui/theme-tools";
-
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import Intro from './components/Intro';
 import History from "./components/History";

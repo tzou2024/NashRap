@@ -6,8 +6,6 @@ import {
 } from "@chakra-ui/react"
 import titlecard from "./data/titlecard.jpg"
 
-import {ArrowDownIcon} from '@chakra-ui/icons'
-
 export default function Heading() {
   return (
     <Box borderBottom={"8px solid gray"} my="3" py={"3"}  minHeight={"90vh"}>
