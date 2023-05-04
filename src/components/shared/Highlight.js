@@ -2,13 +2,11 @@ import React from 'react'
 import { 
   Card,
   CardBody,
-  CardFooter,
   Image,
   Stack,
   Heading,
   Text,
-  Link,
-  Button } from '@chakra-ui/react'
+  Link, } from '@chakra-ui/react'
 
 export const Highlight = ({imgsrc, title, descrip, linker, linkdescrip}) => {
   return (
